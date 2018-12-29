@@ -1,0 +1,40 @@
+body {
+	margin-left: 20px;
+}
+
+h1 {
+	color: 	#FF69B4;
+	font-family: 'Charm', cursive;
+}
+
+p span {
+	color: #FF69B4;
+	font-family: 'Charm', cursive;
+	font-size: 1.3em;
+}
+
+input {
+	border-style: solid;
+	border-color:  #FF69B4;
+}
+
+button {
+	background-color: #FF69B4;
+	border-style: solid;
+	border-color:  #BA55D3;
+}
+
+#reaction {
+	margin-top: 30px;
+	font-size: 2em;
+	font-family: 'Charm', cursive;
+	color: #BA55D3;
+}
+
+/********Mobile view********/
+@media (max-width: 730px) {
+	#image {
+		width: 500px;
+		height: 600px;
+    }
+}
