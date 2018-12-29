@@ -13,6 +13,6 @@ function typeAnswer () {
 	} else {
 		var wrongAnswer = "Please say 'yes' or 'no'";
 		document.getElementById("reaction").textContent = wrongAnswer;
-		document.getElementById("image").src = "https://www.petmd.com/sites/default/files/Overweight%20tabby%20cat.jpg";
+		document.getElementById("image").src = "pics/Overweight tabby cat.jpg";
 	}
 }
